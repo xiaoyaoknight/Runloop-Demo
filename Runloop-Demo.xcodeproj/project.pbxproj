@@ -18,6 +18,7 @@
 		C75EBC26228A9ED200372EEA /* Runloop_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBC25228A9ED200372EEA /* Runloop_DemoUITests.m */; };
 		C7632255228C104D002F1A77 /* ZLThread.m in Sources */ = {isa = PBXBuildFile; fileRef = C7632254228C104D002F1A77 /* ZLThread.m */; };
 		C7632258228C116A002F1A77 /* ZLPermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = C7632257228C116A002F1A77 /* ZLPermenantThread.m */; };
+		C7FDD9BE228C2D0100468AAC /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FDD9BD228C2D0100468AAC /* Test2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		C7632254228C104D002F1A77 /* ZLThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLThread.m; sourceTree = "<group>"; };
 		C7632256228C116A002F1A77 /* ZLPermenantThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLPermenantThread.h; sourceTree = "<group>"; };
 		C7632257228C116A002F1A77 /* ZLPermenantThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLPermenantThread.m; sourceTree = "<group>"; };
+		C7FDD9BC228C2D0100468AAC /* Test2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
+		C7FDD9BD228C2D0100468AAC /* Test2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,7 @@
 				C75EBC02228A9ED100372EEA /* AppDelegate.m */,
 				C73E7EC3228A9FCC00269112 /* RootViewController.h */,
 				C73E7EC1228A9FBC00269112 /* RootViewController.m */,
+				C7FDD9BF228C319300468AAC /* 常驻线程 */,
 				C7632259228C18E2002F1A77 /* 线程保活 */,
 				C75EBC07228A9ED100372EEA /* Main.storyboard */,
 				C75EBC0A228A9ED200372EEA /* Assets.xcassets */,
@@ -153,6 +157,15 @@
 				C7632254228C104D002F1A77 /* ZLThread.m */,
 			);
 			path = "线程保活";
+			sourceTree = "<group>";
+		};
+		C7FDD9BF228C319300468AAC /* 常驻线程 */ = {
+			isa = PBXGroup;
+			children = (
+				C7FDD9BC228C2D0100468AAC /* Test2ViewController.h */,
+				C7FDD9BD228C2D0100468AAC /* Test2ViewController.m */,
+			);
+			path = "常驻线程";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +302,7 @@
 				C7632255228C104D002F1A77 /* ZLThread.m in Sources */,
 				C75EBC11228A9ED200372EEA /* main.m in Sources */,
 				C73E7EC2228A9FBC00269112 /* RootViewController.m in Sources */,
+				C7FDD9BE228C2D0100468AAC /* Test2ViewController.m in Sources */,
 				C75EBC03228A9ED100372EEA /* AppDelegate.m in Sources */,
 				C7632258228C116A002F1A77 /* ZLPermenantThread.m in Sources */,
 			);

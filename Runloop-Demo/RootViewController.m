@@ -8,6 +8,7 @@
 
 #import "RootViewController.h"
 #import "Test1ViewController.h"
+#import "Test2ViewController.h"
 
 @interface RootViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -21,7 +22,7 @@
     [super viewDidLoad];
     self.title = @"Runtime-Demo";
     
-    self.dataArray = [[NSArray alloc] initWithObjects:@"线程保活", nil];
+    self.dataArray = [[NSArray alloc] initWithObjects:@"线程保活", @"常驻线程",nil];
     
     self.tableview = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height) style:UITableViewStyleGrouped];
     [self.view addSubview:self.tableview];
@@ -57,6 +58,14 @@ cellForRowAtIndexPath:(NSIndexPath *)indexPath {
         UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:test1VC];
         [self presentViewController:nav animated:YES completion:nil];
     }
+    
+    if (indexPath.row == 1) {
+        Test2ViewController *test2VC = [[Test2ViewController alloc] init];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:test2VC];
+        [self presentViewController:nav animated:YES completion:nil];
+    }
+    
+    
 }
 
 @end
