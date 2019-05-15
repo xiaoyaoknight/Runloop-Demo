@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C73E7EC2228A9FBC00269112 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73E7EC1228A9FBC00269112 /* RootViewController.m */; };
+		C73E7EC6228A9FD900269112 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73E7EC4228A9FD900269112 /* Test1ViewController.m */; };
 		C75EBC03228A9ED100372EEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBC02228A9ED100372EEA /* AppDelegate.m */; };
-		C75EBC06228A9ED100372EEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBC05228A9ED100372EEA /* ViewController.m */; };
 		C75EBC09228A9ED100372EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75EBC07228A9ED100372EEA /* Main.storyboard */; };
 		C75EBC0B228A9ED200372EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75EBC0A228A9ED200372EEA /* Assets.xcassets */; };
 		C75EBC0E228A9ED200372EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75EBC0C228A9ED200372EEA /* LaunchScreen.storyboard */; };
 		C75EBC11228A9ED200372EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBC10228A9ED200372EEA /* main.m */; };
 		C75EBC1B228A9ED200372EEA /* Runloop_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBC1A228A9ED200372EEA /* Runloop_DemoTests.m */; };
 		C75EBC26228A9ED200372EEA /* Runloop_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBC25228A9ED200372EEA /* Runloop_DemoUITests.m */; };
+		C7632255228C104D002F1A77 /* ZLThread.m in Sources */ = {isa = PBXBuildFile; fileRef = C7632254228C104D002F1A77 /* ZLThread.m */; };
+		C7632258228C116A002F1A77 /* ZLPermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = C7632257228C116A002F1A77 /* ZLPermenantThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C73E7EC1228A9FBC00269112 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C73E7EC3228A9FCC00269112 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C73E7EC4228A9FD900269112 /* Test1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		C73E7EC5228A9FD900269112 /* Test1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
 		C75EBBFE228A9ED100372EEA /* Runloop-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Runloop-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75EBC01228A9ED100372EEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C75EBC02228A9ED100372EEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C75EBC04228A9ED100372EEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C75EBC05228A9ED100372EEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C75EBC08228A9ED100372EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C75EBC0A228A9ED200372EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C75EBC0D228A9ED200372EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,10 @@
 		C75EBC21228A9ED200372EEA /* Runloop-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Runloop-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75EBC25228A9ED200372EEA /* Runloop_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runloop_DemoUITests.m; sourceTree = "<group>"; };
 		C75EBC27228A9ED200372EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7632253228C104D002F1A77 /* ZLThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLThread.h; sourceTree = "<group>"; };
+		C7632254228C104D002F1A77 /* ZLThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLThread.m; sourceTree = "<group>"; };
+		C7632256228C116A002F1A77 /* ZLPermenantThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLPermenantThread.h; sourceTree = "<group>"; };
+		C7632257228C116A002F1A77 /* ZLPermenantThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLPermenantThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +112,9 @@
 			children = (
 				C75EBC01228A9ED100372EEA /* AppDelegate.h */,
 				C75EBC02228A9ED100372EEA /* AppDelegate.m */,
-				C75EBC04228A9ED100372EEA /* ViewController.h */,
-				C75EBC05228A9ED100372EEA /* ViewController.m */,
+				C73E7EC3228A9FCC00269112 /* RootViewController.h */,
+				C73E7EC1228A9FBC00269112 /* RootViewController.m */,
+				C7632259228C18E2002F1A77 /* 线程保活 */,
 				C75EBC07228A9ED100372EEA /* Main.storyboard */,
 				C75EBC0A228A9ED200372EEA /* Assets.xcassets */,
 				C75EBC0C228A9ED200372EEA /* LaunchScreen.storyboard */,
@@ -130,6 +140,19 @@
 				C75EBC27228A9ED200372EEA /* Info.plist */,
 			);
 			path = "Runloop-DemoUITests";
+			sourceTree = "<group>";
+		};
+		C7632259228C18E2002F1A77 /* 线程保活 */ = {
+			isa = PBXGroup;
+			children = (
+				C73E7EC5228A9FD900269112 /* Test1ViewController.h */,
+				C73E7EC4228A9FD900269112 /* Test1ViewController.m */,
+				C7632256228C116A002F1A77 /* ZLPermenantThread.h */,
+				C7632257228C116A002F1A77 /* ZLPermenantThread.m */,
+				C7632253228C104D002F1A77 /* ZLThread.h */,
+				C7632254228C104D002F1A77 /* ZLThread.m */,
+			);
+			path = "线程保活";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C75EBC06228A9ED100372EEA /* ViewController.m in Sources */,
+				C73E7EC6228A9FD900269112 /* Test1ViewController.m in Sources */,
+				C7632255228C104D002F1A77 /* ZLThread.m in Sources */,
 				C75EBC11228A9ED200372EEA /* main.m in Sources */,
+				C73E7EC2228A9FBC00269112 /* RootViewController.m in Sources */,
 				C75EBC03228A9ED100372EEA /* AppDelegate.m in Sources */,
+				C7632258228C116A002F1A77 /* ZLPermenantThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
