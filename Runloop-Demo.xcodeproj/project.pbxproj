@@ -19,6 +19,7 @@
 		C7632255228C104D002F1A77 /* ZLThread.m in Sources */ = {isa = PBXBuildFile; fileRef = C7632254228C104D002F1A77 /* ZLThread.m */; };
 		C7632258228C116A002F1A77 /* ZLPermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = C7632257228C116A002F1A77 /* ZLPermenantThread.m */; };
 		C7FDD9BE228C2D0100468AAC /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FDD9BD228C2D0100468AAC /* Test2ViewController.m */; };
+		C7FDD9C2228D06D200468AAC /* Test3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FDD9C1228D06D200468AAC /* Test3ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		C7632257228C116A002F1A77 /* ZLPermenantThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLPermenantThread.m; sourceTree = "<group>"; };
 		C7FDD9BC228C2D0100468AAC /* Test2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
 		C7FDD9BD228C2D0100468AAC /* Test2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
+		C7FDD9C0228D06D200468AAC /* Test3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test3ViewController.h; sourceTree = "<group>"; };
+		C7FDD9C1228D06D200468AAC /* Test3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test3ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 				C75EBC02228A9ED100372EEA /* AppDelegate.m */,
 				C73E7EC3228A9FCC00269112 /* RootViewController.h */,
 				C73E7EC1228A9FBC00269112 /* RootViewController.m */,
+				C7FDD9C3228D08DD00468AAC /* Runloop和NSTimer */,
 				C7FDD9BF228C319300468AAC /* 常驻线程 */,
 				C7632259228C18E2002F1A77 /* 线程保活 */,
 				C75EBC07228A9ED100372EEA /* Main.storyboard */,
@@ -166,6 +170,15 @@
 				C7FDD9BD228C2D0100468AAC /* Test2ViewController.m */,
 			);
 			path = "常驻线程";
+			sourceTree = "<group>";
+		};
+		C7FDD9C3228D08DD00468AAC /* Runloop和NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				C7FDD9C0228D06D200468AAC /* Test3ViewController.h */,
+				C7FDD9C1228D06D200468AAC /* Test3ViewController.m */,
+			);
+			path = "Runloop和NSTimer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +313,7 @@
 			files = (
 				C73E7EC6228A9FD900269112 /* Test1ViewController.m in Sources */,
 				C7632255228C104D002F1A77 /* ZLThread.m in Sources */,
+				C7FDD9C2228D06D200468AAC /* Test3ViewController.m in Sources */,
 				C75EBC11228A9ED200372EEA /* main.m in Sources */,
 				C73E7EC2228A9FBC00269112 /* RootViewController.m in Sources */,
 				C7FDD9BE228C2D0100468AAC /* Test2ViewController.m in Sources */,

@@ -9,6 +9,7 @@
 #import "RootViewController.h"
 #import "Test1ViewController.h"
 #import "Test2ViewController.h"
+#import "Test3ViewController.h"
 
 @interface RootViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -22,7 +23,7 @@
     [super viewDidLoad];
     self.title = @"Runtime-Demo";
     
-    self.dataArray = [[NSArray alloc] initWithObjects:@"线程保活", @"常驻线程",nil];
+    self.dataArray = [[NSArray alloc] initWithObjects:@"线程保活", @"常驻线程", @"runloop和Timer", nil];
     
     self.tableview = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height) style:UITableViewStyleGrouped];
     [self.view addSubview:self.tableview];
@@ -65,6 +66,11 @@ cellForRowAtIndexPath:(NSIndexPath *)indexPath {
         [self presentViewController:nav animated:YES completion:nil];
     }
     
+    if (indexPath.row == 2) {
+        Test3ViewController *test3VC = [[Test3ViewController alloc] init];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:test3VC];
+        [self presentViewController:nav animated:YES completion:nil];
+    }
     
 }
 
