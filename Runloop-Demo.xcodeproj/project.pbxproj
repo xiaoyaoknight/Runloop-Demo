@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		C73E7EC2228A9FBC00269112 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73E7EC1228A9FBC00269112 /* RootViewController.m */; };
 		C73E7EC6228A9FD900269112 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73E7EC4228A9FD900269112 /* Test1ViewController.m */; };
+		C74A588F2294F30C004B2E24 /* Test4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74A588E2294F30C004B2E24 /* Test4ViewController.m */; };
+		C74A58922294F35F004B2E24 /* spaceship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C74A58912294F35F004B2E24 /* spaceship.jpg */; };
+		C74A58982294F368004B2E24 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C74A58932294F368004B2E24 /* Utils.m */; };
+		C74A58992294F368004B2E24 /* PQRunloop.m in Sources */ = {isa = PBXBuildFile; fileRef = C74A58952294F368004B2E24 /* PQRunloop.m */; };
+		C74A589C2294F36F004B2E24 /* UITableViewCell+Runloop.m in Sources */ = {isa = PBXBuildFile; fileRef = C74A589B2294F36F004B2E24 /* UITableViewCell+Runloop.m */; };
 		C75EBC03228A9ED100372EEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBC02228A9ED100372EEA /* AppDelegate.m */; };
 		C75EBC09228A9ED100372EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75EBC07228A9ED100372EEA /* Main.storyboard */; };
 		C75EBC0B228A9ED200372EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75EBC0A228A9ED200372EEA /* Assets.xcassets */; };
@@ -44,6 +49,16 @@
 		C73E7EC3228A9FCC00269112 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		C73E7EC4228A9FD900269112 /* Test1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
 		C73E7EC5228A9FD900269112 /* Test1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		C74A588D2294F30C004B2E24 /* Test4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test4ViewController.h; sourceTree = "<group>"; };
+		C74A588E2294F30C004B2E24 /* Test4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test4ViewController.m; sourceTree = "<group>"; };
+		C74A58912294F35F004B2E24 /* spaceship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spaceship.jpg; sourceTree = "<group>"; };
+		C74A58932294F368004B2E24 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		C74A58942294F368004B2E24 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		C74A58952294F368004B2E24 /* PQRunloop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQRunloop.m; sourceTree = "<group>"; };
+		C74A58962294F368004B2E24 /* PQSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQSingle.h; sourceTree = "<group>"; };
+		C74A58972294F368004B2E24 /* PQRunloop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQRunloop.h; sourceTree = "<group>"; };
+		C74A589A2294F36F004B2E24 /* UITableViewCell+Runloop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Runloop.h"; sourceTree = "<group>"; };
+		C74A589B2294F36F004B2E24 /* UITableViewCell+Runloop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Runloop.m"; sourceTree = "<group>"; };
 		C75EBBFE228A9ED100372EEA /* Runloop-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Runloop-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75EBC01228A9ED100372EEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C75EBC02228A9ED100372EEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,6 +108,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C74A58902294F34A004B2E24 /* 性能优化，加载大图 */ = {
+			isa = PBXGroup;
+			children = (
+				C74A58912294F35F004B2E24 /* spaceship.jpg */,
+				C74A58972294F368004B2E24 /* PQRunloop.h */,
+				C74A58952294F368004B2E24 /* PQRunloop.m */,
+				C74A58962294F368004B2E24 /* PQSingle.h */,
+				C74A58942294F368004B2E24 /* Utils.h */,
+				C74A58932294F368004B2E24 /* Utils.m */,
+				C74A589A2294F36F004B2E24 /* UITableViewCell+Runloop.h */,
+				C74A589B2294F36F004B2E24 /* UITableViewCell+Runloop.m */,
+				C74A588D2294F30C004B2E24 /* Test4ViewController.h */,
+				C74A588E2294F30C004B2E24 /* Test4ViewController.m */,
+			);
+			path = "性能优化，加载大图";
+			sourceTree = "<group>";
+		};
 		C75EBBF5228A9ED100372EEA = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +152,7 @@
 				C75EBC02228A9ED100372EEA /* AppDelegate.m */,
 				C73E7EC3228A9FCC00269112 /* RootViewController.h */,
 				C73E7EC1228A9FBC00269112 /* RootViewController.m */,
+				C74A58902294F34A004B2E24 /* 性能优化，加载大图 */,
 				C7FDD9C3228D08DD00468AAC /* Runloop和NSTimer */,
 				C7FDD9BF228C319300468AAC /* 常驻线程 */,
 				C7632259228C18E2002F1A77 /* 线程保活 */,
@@ -284,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C74A58922294F35F004B2E24 /* spaceship.jpg in Resources */,
 				C75EBC0E228A9ED200372EEA /* LaunchScreen.storyboard in Resources */,
 				C75EBC0B228A9ED200372EEA /* Assets.xcassets in Resources */,
 				C75EBC09228A9ED100372EEA /* Main.storyboard in Resources */,
@@ -311,14 +345,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C74A58992294F368004B2E24 /* PQRunloop.m in Sources */,
 				C73E7EC6228A9FD900269112 /* Test1ViewController.m in Sources */,
+				C74A588F2294F30C004B2E24 /* Test4ViewController.m in Sources */,
 				C7632255228C104D002F1A77 /* ZLThread.m in Sources */,
+				C74A58982294F368004B2E24 /* Utils.m in Sources */,
 				C7FDD9C2228D06D200468AAC /* Test3ViewController.m in Sources */,
 				C75EBC11228A9ED200372EEA /* main.m in Sources */,
 				C73E7EC2228A9FBC00269112 /* RootViewController.m in Sources */,
 				C7FDD9BE228C2D0100468AAC /* Test2ViewController.m in Sources */,
 				C75EBC03228A9ED100372EEA /* AppDelegate.m in Sources */,
 				C7632258228C116A002F1A77 /* ZLPermenantThread.m in Sources */,
+				C74A589C2294F36F004B2E24 /* UITableViewCell+Runloop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
